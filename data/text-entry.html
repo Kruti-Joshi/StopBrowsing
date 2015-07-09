@@ -1,0 +1,42 @@
+<html>
+<head>
+    <style type="text/css" media="all">
+      #edit-box-hr,#edit-box-min {
+        width: 50px;
+        height: 25px;
+	margin-top: 2px;
+      }
+      .box{
+	margin-top:auto;
+	margin-bottom:auto;
+        height: 80px;
+        width: 95%;
+	padding: 10px;
+	font-weight: 600;
+	line-height: 30px;
+      }
+      #sub-btn{
+	width:50px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	position:absolute;
+	margin-left:-25px;
+	left:50%; 
+      }
+    </style>
+  </head>
+<body>
+    <div class="box">
+    Remind me to close the browser after: <br/>
+    <div align="center">
+    <input type="number" id="edit-box-hr"/> hours,
+    <input type="number" id="edit-box-min"/> minutes
+    </div>
+    <br/>
+    <br/>
+    <button type="button" id="sub-btn">OK</button>
+    
+    </div>
+  </body>
+</html>

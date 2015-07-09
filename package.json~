@@ -1,0 +1,9 @@
+{
+  "name": "stopbrowsing",
+  "title": "StopBrowsing",
+  "id": "jid1-NS9TVB0pamyA6w",
+  "description": "a basic add-on",
+  "author": "Kruti Joshi",
+  "license": "MPL 2.0",
+  "version": "0.2"
+}
